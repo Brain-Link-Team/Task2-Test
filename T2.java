@@ -5,7 +5,6 @@ public class T2 {
     JFrame frame = new JFrame("BorderLayout Demo");
 
     public T2() {
-        JFrame.setDefaultLookAndFeelDecorated(true);
         frame.setSize(600, 400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
